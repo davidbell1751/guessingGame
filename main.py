@@ -17,9 +17,9 @@ try:
         if guess_count < guess_limit:           # if guess count is less then guess limit they have more guesses to run
             guess = str(input("Enter name: "))      # the input has been set to accept a string only
             guess_count += 1                # this will add 1 to each guess count // increment the guess count by 1
-            guesses_left = guess_limit - guess_count
+            guesses_left = guess_limit - guess_count      # this variable is created by subtracting guess count from the guess limit to reveal how many guesses are left
 
-            # print("you have ", guesses_left ," guesses left")
+            # print("you have ", guesses_left ," guesses left")    # this print will feature the number of guesses left
 
 
 
